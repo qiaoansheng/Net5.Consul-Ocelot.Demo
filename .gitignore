@@ -1,0 +1,11 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/.vs
+/Net5.Consul-Ocelot.Demo/APIGateway/bin
+/Net5.Consul-Ocelot.Demo/APIGateway/obj
+/Net5.Consul-Ocelot.Demo/APIGateway/Properties/PublishProfiles
+/Net5.Consul-Ocelot.Demo/WebAPI/bin
+/Net5.Consul-Ocelot.Demo/WebAPI/obj
+/Net5.Consul-Ocelot.Demo/WebAPI/Properties/PublishProfiles

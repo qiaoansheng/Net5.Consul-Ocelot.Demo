@@ -1,0 +1,24 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/{url}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put" ],
+
+      "DownstreamPathTemplate": "/{url}",
+      "DownstreamScheme": "http",
+      "ServiceName": "WebAPI",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      }
+    }
+  ],
+  "GlobalConfiguration": {
+    "ServiceDiscoveryProvider": {
+      "Scheme": "http",
+      "Host": "192.168.214.129",
+      "Port": 8500,
+      "Type": "PollConsul",
+      "PollingInterval": 100 
+    }
+  }
+}
